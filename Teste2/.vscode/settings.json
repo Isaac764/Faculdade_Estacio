@@ -6,5 +6,6 @@
     ],
     "cSpell.words": [
         "desvio"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }

@@ -1,46 +1,23 @@
 public class Pessoa{
 
     //Atributos
-    protected String nome, nacionalidade, naturalidade,
-
+    protected String nome, nacionalidade, naturalidade, identificador;
+    private Calendar data_inicio_existencia;
+    private int idade;
+    private Endereco endereco;
     //Metodos
-    public Pessoa(String nome, String nacionalidade, String naturalidade){
+    public Pessoa(String nome, Calendar data_inicio_existencia, String identificador, Endereco endereco, String nacionalidade, String naturalidade){
         this.nome = nome;
+        this.data_inicio_existencia = data_inicio_existencia;
+        this.identificador = identificador;
+        this.endereco = endereco;
         this.nacionalidade = nacionalidade;
         this.naturalidade = naturalidade;
     }
-    protected void atualizarNome(String nome){
-        this.nome = nome;
-    }
-    protected String recuperarNome(){
-        return this.nome;
-    }
-    protected String recuperarNacionalidade(){
-        return this.nacionalidade;
-    }
-    protected String recuperarNaturalidade(){
-        return this.naturalidade;
-    }
-    private String identificador;
-
-    protected void atualizarID(String identificador){
-        this.identificador = identificador;
-    }
-    protected String recuperarID(){
-        return this.identificador;
-    }
-    protected void atualizarID ( String CPF ) {
-        if ( validaCPF ( CPF ) )
-            this.identificador = CPF;
-        else
-            System.out.println ( "ERRO: CPF invalido!" );
-    }
-    protected void atualizarID ( String CNPJ ) {
-        if ( validaCNPJ ( CNPJ ) )
-            this.identificador = CNPJ;
-        else
-            System.out.println ( "ERRO: CNPJ invalido!" );
-    }
+    //--
+    public String toString(){
+        return "Objeto:" + "\n\t- Classe: " + getClass().getName() + "\n\t- Hash: " + Integer.toHexString(hashCode()) + "\n\t- Nome: " + nome + "\n\t- Identificador: " + identificador;
+	}
 }
 
 
