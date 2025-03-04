@@ -7,7 +7,7 @@ Protótipo em Java de Programa de cadastramento de Aluno
 - `class`: Endereco.java
 - `class`: Escola.java
 
-A itendção do programa é realizar o cadastramento dos anulos e destinar os alunos para sua devida classe de acordo com a faixa etária de idade.
+O intuito do programa é realizar o cadastramento dos anulos e destinar para suas respectivas classes de acordo com a faixa étaria.
 
 > open Source, realizado com as configurações `.vscode/settings.json`.
 
