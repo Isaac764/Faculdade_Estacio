@@ -3,6 +3,11 @@
     <span> Conteúdo da Faculdade - Análise e Desenvolvimento de Sistemas</span>
 </h1>
 
+<h1>
+     <img align="center" width="40px" src="https://img.icons8.com/?size=100&id=GgroWyMhJvY1&format=png&color=000000"></a>
+     <span>Programação Orientada a Objeto - JAVA</span>
+</h1>
+
 ## Engenharia de Software
 <span> Disciplina cursada
 
